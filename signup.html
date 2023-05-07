@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Movie-Ticket Booking Website</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <h1 class="logo">MOV-TIC</h1>
+            <ul class="menu-items">
+                <li><a href="./index.html">Home</a></li>
+                <!-- <li><a href="./index.html">Booking</a></li>
+                <li><a href="./index.html">Now Showing</a></li> -->
+                <li><a href="./signup.html">Sign Up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="reg-area" id="showcase">
+        <div class="reg-container">
+            <h1 class="main-title">Register Here</h1>
+        </div>
+
+    </section>
+
+    <section class="main">
+        <div class="register">
+            <form id="register" >
+                <label for="reg_id">Registration ID: </label> <br>
+                <input type="text" id="reg_id" name="reg_id" required placeholder="Enter your registration ID...">
+                <br><br>
+                <label for="username">Username: </label> <br>
+                <input type="text" id="username" name="username" required placeholder="Enter your username...">
+                <br><br>
+                <label for="password">Password: </label> <br>
+                <input type="password" id="password" name="password" required placeholder="Enter your password...">
+                <br><br>
+                <label for="email">Email: </label> <br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email...">
+                <br><br>
+                <label for="mobile">Mobile Number: </label> <br>
+                <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number...">
+                <br><br>
+                <label for="dob">Date of Birth: </label> <br>
+                <input type="text" id="dob" name="dob" required placeholder="Enter your date of birth (DDMMYYYY)...">
+                <br><br>
+                <input type="submit" value="Submit" class="btn btn-primary">
+                <input type="button" value="Cancel" class="btn btn-primary" onclick="window.location.href='./signup.html'">
+              </form>
+        </div>
+        
+          
+          
+          
+    </section>
+
+    <footer class="footer">
+        <p>Designed with <i class="fa fa-heart pulse"></i> by <strong>Jyoti Garde</strong> </p>
+		<p>&copy; 2023 Movie Ticket Booking. All Rights Reserved.</p>
+	</footer>
+
+</body>
+
